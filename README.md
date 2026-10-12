@@ -1,5 +1,9 @@
 # Samba Active Directory & User Management Lab
 
+**Project Status: COMPLETED — October 12, 2026**
+
+**Deliverables:** Configured Samba AD domain controller, completed user and security group administration exercises, and prepared an illustrated lab report.
+
 ## Overview
 Deployed a **Samba Active Directory Domain Controller (AD DC)** on **Debian 13 ARM64** using **UTM on an Apple Silicon Mac**, then practiced entry-level IT support workflows for account and security group administration.
 
@@ -74,7 +78,7 @@ samba-tool dbcheck
 This checks directory database consistency, not complete DNS, Kerberos, or client-join functionality.
 
 ## Evidence
-The accompanying Word report, **Samba Active Directory Lab Report.docx**, contains 11 labeled screenshots with descriptions. Screenshot files can also be added under `screenshots/` for direct browsing on GitHub.
+The completed Word report, **[Samba_Active_Directory_Lab_Report.docx](Samba_Active_Directory_Lab_Report.docx)**, documents the lab with 11 labeled screenshots and explanations. The report is the final evidence deliverable for this project.
 
 ## Skills demonstrated
 - Virtual machine and Linux server setup
@@ -84,7 +88,14 @@ The accompanying Word report, **Samba Active Directory Lab Report.docx**, contai
 - Security group creation and membership verification
 - Technical documentation and evidence collection
 
-## Future extensions
+## Final project outcomes
+- Provisioned and verified `corp.example.test` on the Debian Samba AD DC.
+- Practiced creating two fictional user accounts and managing password and account status.
+- Created `IT-Support` and `HR-Department` groups and assigned their respective users.
+- Documented the directory database check and other key steps in the lab report.
+- Completed the hands-on exercises and project documentation.
+
+## Optional future extensions
 - Verify DNS SRV records and Kerberos ticket issuance.
 - Join a compatible client to the domain.
 - Configure resource permissions and test group-based access.
